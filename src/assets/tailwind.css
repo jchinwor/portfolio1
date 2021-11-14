@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.about_social{
+    @apply cursor-pointer
+}
+.services_bg{
+    @apply bg-gray-800 p-6 bg-opacity-20 transform  hover:scale-105 transition duration-500 ease-in-out
+}
